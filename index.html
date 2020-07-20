@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/style.css">
-   <title>Technomart</title>
+   <title>Device</title>
 </head>
+
 <body>
-   
+   <header class="header">
+      <div class="container">
+         <div class="header__logo">
+            <p class="header__logo-text">Device</p>
+         </div>
+         <div class="header__wrapper">
+            <div class="header__user user">
+               <form class="user__form" action="post">
+                  <label class="user__label" for="search"></label>
+                  <input class="user__input" type="search" name="search" value="" id="search" placeholder="Поиск по сайту">
+
+               </form>
+               <div class="user__interface interface">
+                  <div class="interface__inner">
+                     <a class="interface__link interface__login" href="#">Войти</a>
+                  </div>
+                  <div class="interface__inner">
+                     <a class="interface__link interface__compare" href="#">Сравнить</a>
+                     <a class="interface__link interface__cart" href="#">Корзина</a>
+                  </div>
+               </div>
+            </div>
+            <nav class="header__main-nav main-nav">
+               <div class="main-nav__catalog">
+                  <h3 class="main-nav__h3 main-nav__link" >Каталог товаров</h3>
+               </div>
+               <div class="main-nav__about">
+                  <div class="main-nav__inner">
+                     <a class="main-nav__link main-nav__link-delivery" href="#">Доставка</a>
+                     <a class="main-nav__link" href="#">Гарантия</a>
+                  </div>
+                  <div class="main-nav__inner">
+                     <a class="main-nav__link" href="#">Контакты</a>
+                  </div>
+               </div>
+            </nav>
+            <div class="header__decore">
+               <div class="header__decore-line"></div>
+               <div class="header__decore-number">01</div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <script src="js/js.js" ></script>
 </body>
+
 </html>
+
+<ul class="main-nav__list">
+   <li><a href="#">Виртуальная реальность</a></li>
+   <li><a href="#">Моноподы для селфи</a></li>
+   <li><a href="#">Экшн-камеры</a></li>
+   <li><a href="#">Фитнесc-браслеты</a></li>
+   <li><a href="#">Умные часы</a></li>
+   <li><a href="#">Квадрокоптеры</a></li>
+</ul>
